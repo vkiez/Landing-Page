@@ -175,7 +175,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 300px;
+    min-height: 350px;
     
 }
 
@@ -218,7 +218,7 @@ footer {
 }
 
 .footer .container {
-    height: 80px;
+    height: 70px;
     display: flex;
     align-items: center;
     justify-content: center;
