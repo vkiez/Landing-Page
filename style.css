@@ -100,7 +100,7 @@ ul {
 .info {
     background-color: #f9faf8;
     color: #333;
-    min-height: 300px;
+    min-height: 400px;
     text-align: center;
 
 }
@@ -111,7 +111,7 @@ ul {
 }
 
 .info .container {
-    min-height: 300px;
+    min-height: 400px;
     align-items: center;
 }
 
@@ -148,7 +148,7 @@ ul {
 .quote .container {
     display: flex;
     flex-direction: column;
-    min-height: 300px;
+    min-height: 400px;
     align-items: center;
     justify-content: center;
 
@@ -166,10 +166,43 @@ ul {
 
 .action {
     background-color: #fff;
-    min-height: 300px;
-    text-align: center;
+    height: 100%;
+    
+ 
 }
 
 .action .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
     
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    background: #333;
+    color: #fff;
+    border-radius: 16px;
+    margin: 20px 10px;
+    padding: 30px ;
+   
+}
+
+.action button {
+    border: 0;
+    border-radius: 4px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px;
+    width: 150px;
+    padding: 10px 0;
+    
+    
+}
+
+.action .text {
+    font-weight: bold;
 }
